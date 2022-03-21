@@ -9,13 +9,30 @@ body{
 
 #container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
-    border: 2px solid blue;
+    border: 2px solid rgb(78, 87, 95);
     margin: auto;
-    background-color: blanchedalmond
+    background-color: rgba(255, 255, 255, 0.533);
 
 }
 #container h1{
     font-size: 70px;
+}
+#cabecera{
+    background: #33a;
+    color: white;
+    padding: 0.5em;
+    margin: auto;
+    box-shadow: -3px -11px 28px 7px rgba(0,0,0,0.87);
+    
+    font-weight: bold;
+    padding: 0.5em;
+
+}
+
+#cabecera #tagaline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
